@@ -53,6 +53,10 @@ namespace OfficeManagementSystem
                             Console.WriteLine();
                         }
                         break;
+                    case 3:
+                        Console.WriteLine("What's wrong? Feeling under the weather? Better get some rest.");
+                        enter = false;
+                        break;
                     default:
                         Console.WriteLine("What are you even here for? Go away before we call security!");
                         Console.WriteLine();
@@ -180,8 +184,6 @@ namespace OfficeManagementSystem
                         break;
                 }
             }
-           
-           
         }
     }
 }
